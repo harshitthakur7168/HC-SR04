@@ -1,0 +1,18 @@
+1) ULTRA SONIC SENSOR
+
+An ultrasonic sensor is an electronic device that measures the distance of a target object by emitting ultrasonic sound waves, and converts the reflected sound into an electrical signal. 
+Ultrasonic waves travel faster than the speed of audible sound (i.e. the sound that humans can hear). 
+Ultrasonic sensors have two main components: the transmitter (which emits the sound using piezoelectric crystals) and the receiver (which encounters the sound after it has travelled to and from the target).
+
+In order to calculate the distance between the sensor and the object, the sensor measures the time it takes between the emission of the sound by the transmitter to its contact with the receiver. 
+The formula for this calculation is D = ½ T x C (where D is the distance, T is the time, and C is the speed of sound ~ 343 meters/second). 
+For example, if a scientist set up an ultrasonic sensor aimed at a box and it took 0.025 seconds for the sound to bounce back, the distance between the ultrasonic sensor and the box would be:
+D = 0.5 x 0.025 x 343
+or about 4.2875 meters.
+
+2) 74HC595 8 Bit Shift Register
+
+Shift Registers are sequential logic circuits, capable of storage and transfer of data. They are made up of Flip Flops which are connected in such a way that the output of one flip flop could serve as the input of the other flip-flop, depending on the type of shift registers being created.
+Shift registers are basically a type of register which have the ability to transfer (“shift”) data. 
+Registers are generically storage devices which are created by connecting a specific number of flip flops together in series and the amount of data (number of bits) which can be stored by the register is always directly proportional to the number of flip flops, 
+as each flip flop is capable of storing only one bit at a time. When the flip-flops in a register are connected in such a way that the output of one flip flop, becomes the input of the other, a shift register is created.
